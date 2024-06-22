@@ -1,0 +1,80 @@
+/* Estilo para o corpo da página */
+body {
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimento padrão */
+    display: flex; /* Usa flexbox para alinhar os itens */
+    flex-direction: column; /* Alinha os itens em coluna */
+    align-items: center; /* Centraliza itens horizontalmente */
+    justify-content: center; /* Centraliza itens verticalmente */
+    height: 100vh; /* Define a altura da página como 100% da altura da viewport */
+    background-color: #f2f2f2; /* Define a cor de fundo */
+    font-family: 'Arial', sans-serif; /* Define a fonte padrão */
+    color: #000; /* Define a cor do texto */
+  }
+  
+  /* Estilo para o contêiner principal */
+  .container {
+    text-align: center; /* Centraliza o texto */
+    background-color: #fff; /* Define a cor de fundo do contêiner */
+    border: 3px solid #000; /* Adiciona uma borda preta */
+    padding: 20px; /* Adiciona preenchimento interno */
+    max-width: 600px; /* Define a largura máxima */
+    width: 100%; /* Define a largura como 100% do contêiner pai */
+  }
+  
+  /* Estilo para o título principal */
+  h1 {
+    margin: 0 0 20px 0; /* Remove margens superiores e laterais, adiciona margem inferior */
+    font-size: 2.5rem; /* Define o tamanho da fonte */
+    text-transform: uppercase; /* Transforma o texto em letras maiúsculas */
+    letter-spacing: 2px; /* Define o espaçamento entre letras */
+    border-bottom: 3px solid #000; /* Adiciona uma borda inferior */
+    padding-bottom: 10px; /* Adiciona preenchimento inferior */
+  }
+  
+  /* Estilo para o contêiner do canvas */
+  #canvas-container {
+    display: inline-block; /* Define como elemento inline-block */
+    border: 3px solid #000; /* Adiciona uma borda preta */
+    background-color: #fff; /* Define a cor de fundo */
+    margin-bottom: 20px; /* Adiciona margem inferior */
+    width: 100%; /* Define a largura como 100% do contêiner pai */
+  }
+  
+  /* Estilo para a seção de controles */
+  .controls {
+    display: flex; /* Usa flexbox para alinhar os itens */
+    flex-direction: column; /* Alinha os itens em coluna */
+    align-items: center; /* Centraliza itens horizontalmente */
+    gap: 10px; /* Adiciona espaço entre os itens */
+  }
+  
+  /* Estilo para os rótulos */
+  label {
+    font-size: 1rem; /* Define o tamanho da fonte */
+  }
+  
+  /* Estilo para os controles deslizantes */
+  input[type="range"] {
+    width: 100%; /* Define a largura como 100% do contêiner pai */
+    max-width: 300px; /* Define a largura máxima */
+  }
+  
+  /* Estilo para os botões */
+  button {
+    padding: 10px 20px; /* Define o preenchimento interno */
+    font-size: 1rem; /* Define o tamanho da fonte */
+    background-color: #fff; /* Define a cor de fundo */
+    border: 3px solid #000; /* Adiciona uma borda preta */
+    cursor: pointer; /* Define o cursor como ponteiro ao passar o mouse */
+    transition: background-color 0.3s, transform 0.3s; /* Adiciona transições para a cor de fundo e a transformação */
+    text-transform: uppercase; /* Transforma o texto em letras maiúsculas */
+  }
+  
+  /* Estilo para os botões ao passar o mouse */
+  button:hover {
+    background-color: #000; /* Muda a cor de fundo para preto */
+    color: #fff; /* Muda a cor do texto para branco */
+    transform: translateY(-2px); /* Move o botão 2px para cima */
+  }
+  

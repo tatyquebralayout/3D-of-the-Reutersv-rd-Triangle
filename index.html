@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <!-- Meta tags essenciais para definir a codificação de caracteres e a viewport para responsividade -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Título da página -->
+  <title>Ilusão Interativa em 3D do Triângulo de Reutersvärd</title>
+  <!-- Link para o arquivo CSS externo -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Inclusão das bibliotecas p5.js e suas extensões (dom e sound) via CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.dom.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script>
+  <!-- Inclusão do arquivo JavaScript principal, adiado para garantir que o HTML seja carregado primeiro -->
+  <script src="js/sketch.js" defer></script>
+</head>
+<body>
+  <!-- Contêiner principal para a estrutura da página -->
+  <div class="container">
+    <!-- Título da aplicação -->
+    <h1>Ilusão Interativa em 3D do Triângulo de Reutersvärd</h1>
+    <!-- Div para conter o canvas onde a ilusão será desenhada -->
+    <div id="canvas-container"></div>
+    <!-- Controles para interação com a ilusão 3D -->
+    <div class="controls">
+      <!-- Controle deslizante para ajustar a rotação em X -->
+      <label for="rotationXSlider">Rotação em X:</label>
+      <input type="range" id="rotationXSlider" min="0" max="360" value="0">
+
+      <!-- Controle deslizante para ajustar a rotação em Y -->
+      <label for="rotationYSlider">Rotação em Y:</label>
+      <input type="range" id="rotationYSlider" min="0" max="360" value="0">
+
+      <!-- Controle deslizante para ajustar a rotação em Z -->
+      <label for="rotationZSlider">Rotação em Z:</label>
+      <input type="range" id="rotationZSlider" min="0" max="360" value="0">
+
+      <!-- Botão para redefinir os valores de rotação para os padrões -->
+      <button id="reset">Redefinir</button>
+    </div>
+  </div>
+</body>
+</html>
