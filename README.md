@@ -1,3 +1,9 @@
+> [!IMPORTANT]
+> **Este projeto mudou de casa.** Agora ele faz parte da galeria [creative-code](https://github.com/tatyquebralayout/creative-code/tree/main/pecas/reutersvard-3d), com demo ao vivo e as outras peças. Este repositório fica arquivado só pra não quebrar links antigos.
+>
+> **This project has moved.** It's now part of the [creative-code](https://github.com/tatyquebralayout/creative-code/tree/main/pecas/reutersvard-3d) gallery, with a live demo and the other pieces. This repository stays archived only so old links keep working.
+
+
 # 🔺 3D Reutersvärd Triangle Illusion
 
 [![GitHub stars](https://img.shields.io/github/stars/tatyquebralayout/3D-of-the-Reutersv-rd-Triangle?style=social)](https://github.com/tatyquebralayout/3D-of-the-Reutersv-rd-Triangle/stargazers)
